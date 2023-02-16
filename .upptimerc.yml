@@ -22,4 +22,5 @@ sites:
 status-website:
   baseUrl: /monitoring # where "repo" is your repository name
   name: Comm100
+  logoUrl: https://www.comm100.com/wp-content/uploads/images/logo-comm100-2022.svg
   
