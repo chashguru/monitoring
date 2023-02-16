@@ -1,6 +1,6 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: chashguru # Your GitHub organization or username, where this repository lives
+repo: monitoring # The name of this repository
 
 sites:
 - name: Facebook App
@@ -17,3 +17,8 @@ sites:
   url: https://dash11.comm100.io/api/deltapath/health
 - name: Messenger
   url: https://dash11.comm100.io/api/messenger/health
+
+status-website:
+  baseUrl: /monitoring # where "repo" is your repository name
+  name: Comm100
+  
