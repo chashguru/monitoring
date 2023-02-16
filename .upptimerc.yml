@@ -18,6 +18,8 @@ sites:
   url: https://dash11.comm100.io/api/deltapath/health
 - name: Messenger
   url: https://dash11.comm100.io/api/messenger/health
+- name: ACPNS
+  url: https://dash11.comm100.io/api/acpns/health
 
 status-website:
   baseUrl: /monitoring # where "repo" is your repository name
