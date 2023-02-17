@@ -28,6 +28,3 @@ status-website:
   name: Production Monitoring
   logoUrl: https://www.comm100.com/wp-content/uploads/images/logo-comm100-2022.svg
   faviconSvg: https://www.comm100.com/wp-content/uploads/2023/01/image/png/Outreach-icon-update.png
-
-- name: Axios Action
-  uses: actionsflow/axios@v1
