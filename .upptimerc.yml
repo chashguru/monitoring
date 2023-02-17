@@ -23,7 +23,7 @@ sites:
 - name: Email App
   url: https://dash11.comm100.io/api/emailapp/health
 - name: Secure Messaging
-  url:https://dash11.comm100.io/api/securemessaging/health
+  url: https://dash11.comm100.io/api/securemessaging/health
 
 status-website:
   baseUrl: /monitoring # where "repo" is your repository name
