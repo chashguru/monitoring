@@ -24,8 +24,7 @@ jobs:
       - uses: dhollerbach/actions.send-message-to-ms-teams@1.0.10
         with:
           webhook: 'https://comm100corp.webhook.office.com/webhookb2/50f05298-9c97-466f-872a-f47db8b42331@67648efa-5ddc-4372-b505-62b86a1f61c6/IncomingWebhook/cf067d6a122b4e68a6a5dad215bbf655/14836f60-8393-4155-b250-794a6fda2a7b'
-          title: '${{ github.event.issue.title }}'
-          message: '${{ github.event.issue.body }}'
+          message: '$ ${{ github.event.issue.title }} {{ github.event.issue.body }}'
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
